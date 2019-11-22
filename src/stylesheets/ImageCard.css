@@ -1,0 +1,28 @@
+img.ic {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+div.ic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 30px;
+    color: #343A41;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 14px;
+    color: #343A41;
+    font-family: 'Roboto', sans-serif;
+}

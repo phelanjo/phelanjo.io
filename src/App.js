@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavBar } from './components/NavBar'
-import './App.css';
+import { ImageCard } from './components/ImageCard'
+import './stylesheets/App.css';
 
 function App() {
   return (
-    <div>
+    <div class="app">
+      <ImageCard />
       <NavBar />
     </div>
   );
