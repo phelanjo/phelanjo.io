@@ -7,7 +7,7 @@ export class NavBar extends Component {
             <div class="nav">
                 <ul class="nav">
                     <li class="nav">
-                        <a class="nav" href="https://pdfhost.io/v/Nuz@b4MT_phelan_resumepdf.pdf">Resume</a>
+                        <a class="nav" href="https://phelanjo-io.s3.amazonaws.com/phelan_res.pdf">Resume</a>
                     </li>
                     <li class="nav">
                         <a class="nav" href="https://www.github.com/phelanjo">GitHub</a>
