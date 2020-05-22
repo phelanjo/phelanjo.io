@@ -12,6 +12,9 @@ export class NavBar extends Component {
                     <li class="nav">
                         <a class="nav" href="https://www.github.com/phelanjo">GitHub</a>
                     </li>
+                    <li class="nav">
+                        <a class="nav" href="http://spootify.s3-website-us-east-1.amazonaws.com">Spootify</a>
+                    </li>
                 </ul>
             </div>
         )
