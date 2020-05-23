@@ -36,3 +36,46 @@ div.nav {
 text.nav {
   margin-left: 3px;
 }
+
+@media only screen and (max-width: 480px),
+  only screen and (max-device-width: 480px) {
+  ul.nav {
+    float: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  li.nav {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #27afa3;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+  }
+
+  li.nav:hover {
+    background-color: #7d695d;
+  }
+
+  a.nav {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ededed;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.nav {
+    background-color: #9fa5a5;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+  }
+
+  text.nav {
+    margin-left: 3px;
+  }
+}
