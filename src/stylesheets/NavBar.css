@@ -1,6 +1,8 @@
 ul.nav {
   float: left;
   list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 
 li.nav {
@@ -21,10 +23,16 @@ a.nav {
   font-weight: bold;
   color: #ededed;
   font-size: 16px;
+  display: flex;
+  flex-direction: row;
 }
 
 div.nav {
   background-color: #9fa5a5;
   padding: 10px;
   border-radius: 0 20px 20px 0;
+}
+
+text.nav {
+  margin-left: 3px;
 }
