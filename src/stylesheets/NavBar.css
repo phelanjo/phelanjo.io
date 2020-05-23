@@ -1,30 +1,30 @@
 ul.nav {
-    float: left;
-    list-style: none;
+  float: left;
+  list-style: none;
 }
 
 li.nav {
-    float: left;
-    padding: 15px 30px;
-    background-color: #27AFA3;
-    border-radius: 5px;
-    margin: 0 10px 0 0;
+  float: left;
+  padding: 15px 30px;
+  background-color: #27afa3;
+  border-radius: 5px;
+  margin: 0 10px 0 0;
 }
 
 li.nav:hover {
-    background-color: #7D695D;
+  background-color: #7d695d;
 }
 
 a.nav {
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    font-weight: bold;
-    color: #EDEDED;
-    font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ededed;
+  font-size: 16px;
 }
 
 div.nav {
-    background-color: #9FA5A5;
-    padding: 10px;
-    border-radius: 0 20px 20px 0;
+  background-color: #9fa5a5;
+  padding: 10px;
+  border-radius: 0 20px 20px 0;
 }
