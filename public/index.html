@@ -24,6 +24,10 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script
+      src="https://kit.fontawesome.com/669e4f9fb4.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Phelanjo.io</title>
   </head>
   <body>
@@ -39,6 +43,30 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      const FIREBASE_KEY = process.env.REACT_APP_FIREBASE_KEY;
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: FIREBASE_KEY,
+        authDomain: "phelanjo-io-a8bd3.firebaseapp.com",
+        databaseURL: "https://phelanjo-io-a8bd3.firebaseio.com",
+        projectId: "phelanjo-io-a8bd3",
+        storageBucket: "phelanjo-io-a8bd3.appspot.com",
+        messagingSenderId: "839712495230",
+        appId: "1:839712495230:web:45bc70a8c966b194ff2a2f",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
   </body>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap"
+    rel="stylesheet"
+  />
 </html>
