@@ -26,3 +26,35 @@ div.ic {
   color: #343a41;
   font-family: "Roboto", sans-serif;
 }
+
+@media only screen and (max-width: 480px),
+  only screen and (max-device-width: 480px) {
+  img.ic {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  div.ic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #ededed;
+    border-radius: 10px;
+  }
+
+  .name {
+    font-size: 15px;
+    color: #343a41;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+
+  .info {
+    font-size: 8px;
+    color: #343a41;
+    font-family: "Roboto", sans-serif;
+  }
+}
