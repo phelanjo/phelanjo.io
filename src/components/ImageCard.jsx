@@ -9,7 +9,6 @@ export class ImageCard extends Component {
         <img class="ic" src={Photo} alt="johnny.png" />
         <text class="name">Johnny Phelan</text>
         <text class="info">Software Developer</text>
-        <text class="info">Student, OSU-Cascades</text>
       </div>
     );
   }
